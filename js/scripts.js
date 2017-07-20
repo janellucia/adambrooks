@@ -53,7 +53,7 @@ function nextImage() {
 	console.log(leftVal); 
 }
 // This function get's the Prev Button to work
-function nextImage() {
+function prevImage() {
 	let imageList = document.querySelector('#imageList');
 	let leftVal = imageList.style.left;
     console.log(imageList);
