@@ -1,0 +1,32 @@
+header{
+	background: $adamWhite;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	top: 0;
+	padding: 10px 0;
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.site-title{
+		font-family: avenir, sans-serif;
+	}
+	ul.menu {
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline;
+			margin-right: 10px;
+		}
+	}
+}
+
+//front-page-grid
+
+.front-page-grid{
+	margin-top: 4%;
+}
+

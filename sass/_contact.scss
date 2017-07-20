@@ -1,0 +1,74 @@
+
+.gform_wrapper{
+	form{
+		.gform_body{
+			width: 100%;
+			margin: 0 auto;
+			ul{
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				li{
+					width: 100%;
+					.gfield_label{
+					}
+					.ginput_container{
+						width: 100%;
+						input, textarea{
+							width:100%;
+							color: $adamBlack;
+							border: 0.5px solid $adamBlack;
+							padding: 5%;
+							font-size: 1em;
+							background: $adamWhite;
+
+						}
+						input:focus, textarea:focus{
+							color: $adamBlack;
+							outline: $adamBlack;
+							border: 1px solid $adamBlack;
+							background: white;
+						}
+					}
+				}
+				.half{
+					width: 50%;
+				}
+			}
+		}//g-form-body
+		.gform_footer{
+			width: 80%;
+			margin: 0 auto;
+			input[type=submit]{
+				width: 100%;
+			}
+		}
+	}//form
+}//gform-wrapper
+
+
+
+input[type=submit], .button{
+	font-family: 'Archivo Black', sans-serif;
+	width: 100%;
+	padding: 10px;
+	color: $adamBlack;
+	background: $adamWhite;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid $adamBlack;
+	font-size: 0.9em;
+	transition: background 0.7s linear;
+}
+input[type=submit]:focus, .button:focus{
+	background: $adamAccent;
+	color: $adamWhite;
+	border:1px solid $adamAccent;
+}
+input[type=submit]:hover, .button:hover{
+	background: $adamAccent;
+	color: $adamWhite;
+	border:1px solid $adamAccent;
+}
